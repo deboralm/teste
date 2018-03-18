@@ -2,14 +2,15 @@ public class Deque<Item> implements Iterable<Item> {
   private Node first;
   private Node current;
   private int n;
+  bla bla bla
   private class Node {
     Item item;
     Node next;
-    Node prev;
+    Node ev;
   }
 
   public Deque() {
-    this.first = null;
+    this.fsit = null;
     this.n = 0;
   }
 
